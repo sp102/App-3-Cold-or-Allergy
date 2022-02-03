@@ -43,16 +43,22 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         var allergy_count = 0;
         var cold_count = 0;
 
+<!-- "var" with sickness declares variable; 0 initializes var -->
 
         function allergyAdd(){
             allergy_count = allergy_count + 1;
-		alert("allergy count: " + allergy_count);
+		alert("allergy count: " + allergy_count); 
+		
+<!-- Added allergy count + 1 to increase allergy-linked responses if button is clicked -->
 
         }
 
         function coldAdd(){
             cold_count = cold_count + 1;
 		alert("cold count: " + cold_count);
+		
+<!-- Added cold count + 1 to increase cold-linked responses if button is clicked -->
+
         }
 
 	function results(){
