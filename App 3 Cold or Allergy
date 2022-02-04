@@ -130,6 +130,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 
 
 <div class="page" id="one">
+
+<!-- div class sections off first page; content following is only on first page -->
+
 	<div id="header" class="w3-container w3-flat-carrot">
 		<h1>Question 1</h1>
 	</div>
@@ -140,6 +143,10 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#two"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
 		
         <a href="#two"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
+		
+<!-- First question typed between <p> brackets to show up on pg -->
+<!-- onclick focuses attention on when button is clicked and does command written (allergyadd in this case -->
+<!-- two lines made for two diff buttons: yes and no; each corresponds to diff disease/condition -->
 		
 	</div><!-- /content -->
 </div>
@@ -156,6 +163,10 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 	<a href="#three"  onclick="allergyAdd();" class="w3-btn w3-black"> Yes</a>
 		
         <a href="#three"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
+		
+<!-- id= changes from one to two bc diff page -->
+<!-- href changes to correspond to coming page (going from 2 to 3 so says 3) -->
+<!-- must add href to each button bc navigates to diff pg -->
 		
 	</div><!-- /content -->
 </div>
@@ -189,6 +200,10 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
         <a href="#five"  onclick="coldAdd();" class="w3-btn w3-black">No</a>
 		
  	</div><!-- /content -->
+	
+<!-- h1 changes per question (number changes) to match with current page number -->
+<!-- question between p brackets correspond to each page question; changes per page -->
+	
 </div>
 	
 <div class="page" id="five">
@@ -201,6 +216,9 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 		
 	<a href="#five"  onclick="results();" class="w3-btn w3-black"> results</a>	
 	
+<!-- href= current pg, not next, bc this is last pg -->
+<!-- onclick goes to results when button on pg is clicked -->
+	
 </div>
 	
 <footer class="w3-bottom w3-container w3-flat-carrot">
@@ -210,6 +228,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
 </body>
 </html>
 	
-
+<!-- ending body bracket closes body coding from pg to pg -->
+<!-- ending html bracket closes entire code -->
 
 
